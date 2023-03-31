@@ -18,6 +18,9 @@ app.get('/', (req, res) => {
 app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, '/public/notes.html')); 
 });
+
+app.use('/api', api);
+
 // start listening for incoming requests
 app.listen(PORT, () => { 
     console.log(`App listening on port http://localhost:${PORT}`);
