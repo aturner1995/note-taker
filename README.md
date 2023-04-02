@@ -17,7 +17,10 @@ An application with an Express.js back end and will save and retrieve note data 
 clone or fork the repo and run npm install + node server.js
 
 ## Usage ⚙️
-To run the program - node server.js
+* To run the program - node server.js
+* Deployed URL - https://afternoon-fortress-21043.herokuapp.com/
+![image](https://user-images.githubusercontent.com/120421650/229385557-dcf1f61f-773a-43ee-b7ba-8af669b24b32.png)
+
 
 ## Contribution 🙏
 Please email the repo user for instructions
